@@ -12,7 +12,7 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm-master
 ```
 #### Without git
 ```bash
-wget -O tpm.zip https://github.com/tmux-plugins/tpm/archive/master.zip ~/.tmux/plugins/ && mkdir -p -v ~/.tmux/plugins && unzip tpm.zip -d ~/.tmux/plugins/
+wget -O tpm.zip https://github.com/tmux-plugins/tpm/archive/master.zip && mkdir -p -v ~/.tmux/plugins && unzip tpm.zip -d ~/.tmux/plugins/
 ```
 
 ### Install prefix_highlight plugin

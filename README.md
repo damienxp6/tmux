@@ -6,20 +6,21 @@ wget -qO ~/.tmux.conf https://raw.githubusercontent.com/damienxp6/tmux/master/tm
 ```
 
 ### Install tmux plugin manager
-# With git
+#### With git
 ```bash
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm-master
 ```
-# Without git
+#### Without git
 ```bash
 wget -O tpm.zip https://github.com/tmux-plugins/tpm/archive/master.zip ~/.tmux/plugins/ && mkdir -p -v ~/.tmux/plugins && unzip tpm.zip -d ~/.tmux/plugins/
 ```
 
 ### Install prefix_highlight plugin
+#### With git
 ```bash
 git clone https://github.com/tmux-plugins/tmux-prefix-highlight.git ~/.tmux/plugins/tmux-prefix-highlight-master
 ```
-# Without git
+#### Without git
 ```bash
 wget -O tmux-prefix-highlight.zip https://github.com/tmux-plugins/tmux-prefix-highlight/archive/master.zip && mkdir -p -v ~/.tmux/plugins && unzip tmux-prefix-highlight.zip -d ~/.tmux/plugins/
 ```

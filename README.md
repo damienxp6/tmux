@@ -25,6 +25,13 @@ git clone https://github.com/tmux-plugins/tmux-prefix-highlight.git ~/.tmux/plug
 wget -O tmux-prefix-highlight.zip https://github.com/tmux-plugins/tmux-prefix-highlight/archive/master.zip && mkdir -p -v ~/.tmux/plugins && unzip tmux-prefix-highlight.zip -d ~/.tmux/plugins/
 ```
 
+### All command
+```bash
+wget -qO ~/.tmux.conf https://raw.githubusercontent.com/damienxp6/tmux/master/tmux.conf
+wget -O tpm.zip https://github.com/tmux-plugins/tpm/archive/master.zip && mkdir -p -v ~/.tmux/plugins && unzip tpm.zip -d ~/.tmux/plugins/
+wget -O tmux-prefix-highlight.zip https://github.com/tmux-plugins/tmux-prefix-highlight/archive/master.zip && mkdir -p -v ~/.tmux/plugins && unzip tmux-prefix-highlight.zip -d ~/.tmux/plugins/
+```
+
 ## PLUGINS
 - https://github.com/tmux-plugins/tpm
 - https://github.com/tmux-plugins/tmux-prefix-highlight

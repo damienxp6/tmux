@@ -27,7 +27,7 @@ wget -O tmux-prefix-highlight.zip https://github.com/tmux-plugins/tmux-prefix-hi
 
 ### All command
 ```bash
-sudo apt-get update && sudo apt-get install tmux
+sudo apt-get update && sudo apt-get install -y tmux
 wget -qO ~/.tmux.conf https://raw.githubusercontent.com/damienxp6/tmux/master/tmux.conf
 wget -O tpm.zip https://github.com/tmux-plugins/tpm/archive/master.zip && mkdir -p -v ~/.tmux/plugins && unzip tpm.zip -d ~/.tmux/plugins/
 wget -O tmux-prefix-highlight.zip https://github.com/tmux-plugins/tmux-prefix-highlight/archive/master.zip && mkdir -p -v ~/.tmux/plugins && unzip tmux-prefix-highlight.zip -d ~/.tmux/plugins/
